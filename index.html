@@ -4,25 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Ethiopian Recipe</title>
 </head>
 <body>
-    <center><h1>Ethiopian Food Recipes</h1></center>
-    <h3>Hello World! Have fun with Ethiopian Food</h3>
-    <section>
-        <img src="eth_food.jpg" alt="Ethiopian Food Dish" style="width:200px;height:200px;">
-    </section>
-    <ul>
-        <b>List of traditional food: </b>
-        <li>
-            <a href="recipes/shiro.html">Shiro Wet  </a>
-        </li>
-        <li>
-            <a href="recipes/kocho.html">Kocho </a>
-        </li>
-        <li>
-            <a href="recipes/firfir.html">Firfir </a>
-        </li>
-    </ul>
+    <center><h1 id="title">Ethiopian Food Recipes</h1></center>
+    <h3 id="welcome">Hello World! Have fun with Ethiopian Food</h3>
+
+    <div class="list">
+        <h3>Some of our traditional foods are listed below: </h3>
+        <ul id = "unorder">
+            <li class="first">Shiro</li>
+            <li class ="second">Kocho</li>
+            <li class = "third">Firfir</li>
+        </ul>
+    </div>
+
+
+    <div class="gallery">
+        <a href="recipes/shiro.html" rel="noopener noreferrer">
+            <img src="recipes/shiro.jpg" alt="Firfir" width="600" height="400">
+        </a>
+        <div class="desc">Shiro is most popular food in Ethiopia</div>
+    </div>
+
+
+    <div class="gallery">
+        <a href="recipes/kocho.html" target="_blank" rel="noopener noreferrer">
+            <img src="recipes/kocho.jpg" alt="Firfir" width="600" height="400">
+        </a>
+        <div class="desc">Kocho is highley energetic traditional food of Ethiopian</div>
+    </div>
+
+    <div class="gallery">
+        <a href="recipes/firfir.html" target="_blank" rel="noopener noreferrer">
+            <img src="recipes/firfir_food.jpg" alt="Firfir" width="600" height="400">
+        </a>
+        <div class="desc">Firfir ingredients are only exist in Ethiopia</div>
+    </div>
+
+
 </body>
 </html>

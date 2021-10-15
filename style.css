@@ -1,0 +1,73 @@
+#title {
+    font-style: bold;
+    background-color: red;
+    align-items: center;
+}
+
+#welcome {
+    text-align: center;
+    text-decoration: antiquewhite;
+    background-color: cornsilk;
+}
+
+#list {
+    margin: 10px;
+    width: 250px;
+    font-weight: 200;
+    float: left;
+}
+
+#unorder {
+    font-size: large;
+}
+
+.first {
+    color: green;
+}
+
+.second {
+    color: yellow;
+}
+
+.third {
+    color: red;
+}
+
+.gallery {
+    margin: 50px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 180px;
+    font-style: oblique;
+    align-items: center;
+}
+
+.gallery.detail {
+    margin: 50px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 380px;
+    font-style: oblique;
+    align-items: center;
+
+}
+
+.gallery:hover {
+    border: 5px solid rgb(223, 125, 13);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+a.heading {
+    color: rgb(24, 20, 20);
+    font-weight: bold;
+    
+}
